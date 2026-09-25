@@ -23,8 +23,10 @@ export default async function Home() {
     <main>
       <header className="hero">
         <p className="eyebrow">In loving memory of</p>
-        <h1>{memorial.name}</h1>
-        <p className="dates">{memorial.born} — {memorial.died}</p>
+        <div className="wreath">
+          <h1>{memorial.name}</h1>
+          <p className="dates">{memorial.born} — {memorial.died}</p>
+        </div>
         <div className="rule" />
         <p className="tribute">{memorial.tribute}</p>
       </header>
