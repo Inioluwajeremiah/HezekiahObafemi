@@ -8,10 +8,10 @@ export const memorial = {
   tribute:
     "Forever in our hearts. Please share a memory, a prayer, or a few words of comfort for the family.",
   photos: [
-    "/photos/1.jpg",
-    "/photos/2.jpg",
-    "/photos/3.jpg",
-    "/photos/4.jpg",
-    "/photos/5.jpg",
+    "/photos/7.jpeg",
+    "/photos/2.jpeg",
+    "/photos/3.jpeg",
+    "/photos/4.jpeg",
+    "/photos/5.jpeg",
   ],
 };
