@@ -21,7 +21,12 @@ export async function submitCondolence(_prev: FormState, formData: FormData): Pr
   if (message.length < 2) return { ok: false, error: "Please write a message." };
   if (message.length > 1500) return { ok: false, error: "Message is too long (1500 characters max)." };
 
-  await addCondolence(name, message);
+  try {
+    await addCondolence(name, message);
+  } catch (err) {
+    console.error("Failed to save condolence:", err);
+    return { ok: false, error: "Sorry, we couldn't save your message right now. Please try again later." };
+  }
   revalidatePath("/");
   return { ok: true };
 }
