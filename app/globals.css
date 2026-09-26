@@ -63,7 +63,7 @@ main { max-width: 960px; margin: 0 auto; padding: 72px 20px 48px; }
 
 @media (max-width: 700px) {
   .gallery { grid-template-columns: 1fr 1fr; grid-template-rows: none; aspect-ratio: auto; }
-  .portrait { grid-column: span 2; grid-row: auto; aspect-ratio: 4 / 5; }
+  .portrait { display: none; }
   .thumb { aspect-ratio: 1; }
 }
 
