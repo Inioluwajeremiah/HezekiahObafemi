@@ -3,7 +3,7 @@
 
 export const memorial = {
   name: "Hezekiah Obafemi",
-  born: "1956",
+  born: "1958",
   died: "2026",
   tribute:
     "Forever in our hearts. Please share a memory, a prayer, or a few words of comfort for the family.",
